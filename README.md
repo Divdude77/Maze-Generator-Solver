@@ -18,5 +18,9 @@ gives a segmentation fault, probably due to reaching maximum recursion depth.
 - *robX, robY, robDir* (lines 326-328) all define the starting position of the robot. robDir
 can only have four values: N, E, S, W.
 
+### Execution
+To compile the program, execute the following in the terminal: `gcc main.c graphics.c`<br>
+Then, to run the compiled program, execute: `./a.out | java -jar drawapp-2.0.jar`
+
 ### Screenshots
 <img width="1235" alt="Screenshot of output maze" src="https://user-images.githubusercontent.com/75612147/215067777-b453b003-6f23-4626-976c-cb7298d283c7.png">
